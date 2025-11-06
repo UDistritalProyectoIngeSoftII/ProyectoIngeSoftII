@@ -17,3 +17,30 @@ html, body {
   font-weight: 500;
   margin: 0;
 }
+
+/* Mantener el diseño responsive */
+@media (max-width: 576px) {
+    
+    .sma-header > .container.d-flex {
+        flex-wrap: wrap; 
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .sma-header img[style*="height: 100px"] {
+        height: 50px !important; 
+        margin-right: 0 !important;
+        margin-bottom: 5px;
+    }
+    
+    .sma-header h2 {
+        font-size: 1.2rem; 
+        width: 100%;
+        order: 3; 
+    }
+
+    main.container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
