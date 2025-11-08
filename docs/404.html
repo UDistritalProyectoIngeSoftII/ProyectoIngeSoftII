@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Redireccionando...</title>
+  <script type="text/javascript">
+    // Script de redirección para GitHub Pages
+    (function(){
+      // Obtiene la ruta completa después del dominio (ej. /ProyectoIngeSoftII/dashboard)
+      var path = window.location.pathname;
+      
+      // Obtiene el nombre del repositorio
+      var baseRepo = 'ProyectoIngeSoftII';
+      
+      // La base de la URL debe ser la raíz donde se encuentra index.html
+      var newPath = '/' + baseRepo + '/'; 
+
+      // Comprueba si la ruta actual es una subruta y no la raíz de la app
+      if (path.indexOf(baseRepo) > -1) {
+        // Almacena la ruta deseada (ej. /dashboard) en el almacenamiento de sesión
+        // El Angular router la recuperará
+        sessionStorage.redirect = path;
+      }
+      
+      // Redirige al index.html
+      window.location.replace(newPath);
+
+    })();
+  </script>
+</head>
+<body>
+  <p>Si no eres redireccionado automáticamente, haz click <a href="/ProyectoIngeSoftII/">aquí</a>.</p>
+</body>
+</html>
