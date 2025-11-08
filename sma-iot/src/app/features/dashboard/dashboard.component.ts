@@ -3,7 +3,7 @@ import { Station } from '../../shared/models/station.model';
 import { MapViewerComponent } from '../../shared/components/map-viewer/map-viewer.component';
 
 @Component({
-  selector: 'dashboard',
+  selector: 'app-dashboard',
   imports: [ MapViewerComponent ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',

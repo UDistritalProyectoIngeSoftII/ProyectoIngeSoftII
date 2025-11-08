@@ -3,7 +3,7 @@ import { MapProviderService } from '../../services/map-provider.service';
 import { Station } from '../../models/station.model';
 
 @Component({
-  selector: 'map-viewer',
+  selector: 'app-map-viewer',
   templateUrl: './map-viewer.component.html',
   styleUrl: './map-viewer.component.css',
 })
