@@ -12,7 +12,7 @@ import { MapViewerComponent } from './components/map-viewer/map-viewer.component
     MapViewerComponent // Exportar para que otros módulos puedan usarlo
   ]
 })
-/**¨
+/**
  * Módulo para artefactos reusables (Componentes, Pipes, Directivas)
  * (ISO/IEC 25010 - Reusabilidad)
  */
