@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/map-viewer/map-viewer.component.css"],
+  "sourcesContent": [".map-viewer-container {\r\n    width: 100%;\r\n    height: 500px;\r\n    border: 1px solid #ccc; \r\n}"],
+  "mappings": ";AAAA,CAAC;AACG,SAAO;AACP,UAAQ;AACR,UAAQ,IAAI,MAAM;AACtB;",
+  "names": []
+}

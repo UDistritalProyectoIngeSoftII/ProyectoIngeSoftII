@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/dashboard/dashboard.component.css"],
+  "sourcesContent": [".img-icono-empresa {\r\n    height: 100px;\r\n}\r\n\r\n:host {\r\n    display: flex;\r\n    flex-direction: column;\r\n    min-height: 100vh;\r\n}\r\n\r\n:host > div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n}\r\n\r\nmain {\r\n    flex: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.div-map {\r\n    flex: 1;\r\n    min-height: 0;\r\n    display: flex;\r\n    flex-direction: column;\r\n}"],
+  "mappings": ";AAAA,CAAC;AACG,UAAQ;AACZ;AAEA;AACI,WAAS;AACT,kBAAgB;AAChB,cAAY;AAChB;AAEA,MAAM,EAAE;AACJ,WAAS;AACT,kBAAgB;AAChB,QAAM;AACV;AAEA;AACI,QAAM;AACN,WAAS;AACT,kBAAgB;AACpB;AAEA,CAAC;AACG,QAAM;AACN,cAAY;AACZ,WAAS;AACT,kBAAgB;AACpB;",
+  "names": []
+}

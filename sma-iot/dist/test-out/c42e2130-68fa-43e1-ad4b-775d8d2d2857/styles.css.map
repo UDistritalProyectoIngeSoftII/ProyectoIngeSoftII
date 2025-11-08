@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.css"],
+  "sourcesContent": ["html, body {\r\n    height: 100%;\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\nbody {\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.sma-header {\r\n  background-color: #838383; \r\n  color: #1a4b5b;\r\n}\r\n.sma-header h2 {\r\n  font-weight: 500;\r\n  margin: 0;\r\n}\r\n\r\n/* Mantener el dise\u00F1o responsive */\r\n@media (max-width: 576px) {\r\n    \r\n    .sma-header > .container.d-flex {\r\n        flex-wrap: wrap; \r\n        justify-content: center;\r\n        text-align: center;\r\n    }\r\n    \r\n    .sma-header img[style*=\"height: 100px\"] {\r\n        height: 50px !important; \r\n        margin-right: 0 !important;\r\n        margin-bottom: 5px;\r\n    }\r\n    \r\n    .sma-header h2 {\r\n        font-size: 1.2rem; \r\n        width: 100%;\r\n        order: 3; \r\n    }\r\n\r\n    main.container {\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n    }\r\n}\r\n"],
+  "mappings": ";AAAA;AAAM;AACF,UAAQ;AACR,UAAQ;AACR,WAAS;AACb;AAEA;AACI,cAAY;AACZ,WAAS;AACT,kBAAgB;AAChB,cAAY;AAChB;AAEA,CAAC;AACC,oBAAkB;AAClB,SAAO;AACT;AACA,CAJC,WAIW;AACV,eAAa;AACb,UAAQ;AACV;AAGA,OAAO,CAAC,SAAS,EAAE;AAEf,GAZH,WAYe,EAAE,CAAC,SAAS,CAAC;AACrB,eAAW;AACX,qBAAiB;AACjB,gBAAY;AAChB;AAEA,GAlBH,WAkBe,GAAG,CAAC;AACZ,YAAQ;AACR,kBAAc;AACd,mBAAe;AACnB;AAEA,GAxBH,WAwBe;AACR,eAAW;AACX,WAAO;AACP,WAAO;AACX;AAEA,MAAI,CAlBW;AAmBX,kBAAc;AACd,mBAAe;AACnB;AACJ;",
+  "names": []
+}
