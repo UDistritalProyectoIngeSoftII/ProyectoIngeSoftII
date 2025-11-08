@@ -10,7 +10,7 @@ import * as L from 'leaflet';
 @Injectable({
   providedIn: 'root',
 })
-export class MapProvider {
+export class MapProviderService {
   private map: L.Map | null = null;
 
   constructor() { }
